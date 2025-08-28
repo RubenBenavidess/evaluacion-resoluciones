@@ -2,15 +2,20 @@
 
 ## Ejecútalo
 
-TODO...
+1. Inicia y Carga el entorno virtual de python. 
+
+Linux: python -m venv .venv && source .venv/bin/activate
+
+Windows:
+python -m venv .venv
+PowerShell: .\.venv\Scripts\Activate.ps1
+CMD: .\.venv\Scripts\activate.bat 
+
+2. Ejecuta main.py
 
 ### Propósito
 
 El propósito del presente proyecto es la automatización de generación de resoluciones del Órgano Superior Colegiado del Instituto Yaruquí del Ecuador.
-
-### Resumen
-
-TODO...
 
 ### Introducción
 
@@ -20,17 +25,11 @@ Bajo este enfoque, se propuso aplicar una técnica de procesamiento de lenguaje 
 
 ### Metodología
 
-1. Comprensión de los datos
-
 El documento que se trató consiste en un documento de resolución de un informe de auditoría realizado en el año 2024 determinando que se aprueba, así como otros procedimientos oficiales a realizar. Es un documento netamente de texto plano.
 
-2. Preparación de los datos
+Una vez que se ha comprendido qué información provee el documento, el trabajo posterior consistió en:
 
-Una vez que se ha comprendido los datos, el trabajo posterior consistió en:
-
-- Tratamiento por OCR mediante Llama Vision de Ollama.
+- Tratamiento por OCR mediante docTR.
 - Normalización del texto.
 - NLP con expresiones regulares.
-
-TODO...
-
+- Conversión a JSON
