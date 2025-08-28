@@ -2,20 +2,20 @@
 
 ## Ejecútalo
 
-1. Inicia y Carga el entorno virtual de python. 
+*1. Inicia y Carga el entorno virtual de python.*
 
-  Linux: python -m venv .venv && source .venv/bin/activate
+  Linux: `python -m venv .venv && source .venv/bin/activate`
 
   Windows:
   
-  python -m venv .venv
+  `python -m venv .venv`
   
-  PowerShell: .\.venv\Scripts\Activate.ps1
+  PowerShell: `.\.venv\Scripts\Activate.ps1`
   
-  CMD: .\.venv\Scripts\activate.bat 
+  CMD: `.\.venv\Scripts\activate.bat` 
 
 
-2. Ejecuta main.py
+*2. Ejecuta main.py*
 
 ### Propósito
 
